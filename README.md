@@ -1,29 +1,28 @@
-# 🐺 QA Wolf Take Home Assignment
+# QA Wolf Assignment – Hacker News Sorting Check 🐺
 
-Welcome to the QA Wolf take home assignment for our [QA Engineer](https://www.task-wolf.com/apply-qae) role! We appreciate your interest and look forward to seeing what you come up with.
+This Playwright automation script checks whether the first 100 articles on Hacker News' "newest" page are sorted from newest to oldest based on their timestamps.
 
-## Instructions
+## 🔍 Features
 
-This assignment has two questions:
+- Automatically loads more articles by clicking the "More" button
+- Converts relative timestamps (e.g., "3 minutes ago") into minutes
+- Checks if articles are sorted from newest to oldest
+- Handles flaky behavior by exiting safely if content stops loading
 
-### Question 1
-Use JavaScript + Playwright to go to [Hacker News/newest](https://news.ycombinator.com/newest) and validate that EXACTLY the first 100 articles are sorted from newest to oldest.
+## 🛠️ Tech Stack
 
-Steps:
-1. Run `npm i` to install dependencies.
-2. Edit `index.js` to complete the logic.
-3. Run with `node index.js`.
+- Playwright
+- JavaScript (Node.js)
 
-Use Playwright. You may install other packages if needed.
+## 📺 Code Walkthrough Video
 
-### Question 2
-Record a short ~2 min video using [Loom](https://www.loom.com/) including:
-- Why you want to work at QA Wolf
-- A walkthrough demo of your working code
+[Loom Video Walkthrough](https://www.loom.com/share/your-link)
 
-Combine both in **one** Loom video.
+## 🚀 How to Run
 
-### Submission
-1. Delete `node_modules/`
-2. Zip your folder
-3. Upload to [application page](https://www.task-wolf.com/apply-qae)
+```bash
+npm install
+node index.js
+
+
+
